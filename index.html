@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MACAFÉ: granizados llenos de sabor, color y frescura en La Dorada, Caldas.">
+  <title>MACAFÉ | Sabor que refresca</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="icon" type="image/webp" href="img/logo-macafe.webp">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement"><span>☀️ Hechos para los días de calor</span><span>La Dorada · Caldas · Colombia</span></div>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="nav wrap">
+      <a class="brand brand-image" href="#inicio" aria-label="MACAFÉ inicio">
+        <img class="brand-logo" src="img/logo-macafe.webp" alt="Logo oficial de MACAFÉ Dulce Fusión Granizados">
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú"><i class="fa-solid fa-bars"></i></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#sabores">Sabores</a><a href="#experiencia">Experiencia</a><a href="#proyecto">El proyecto</a><a href="#demanda">Proyección</a>
+        <a class="nav-cta" href="#contacto">Conócenos <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-bg"></div>
+      <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+      <div class="wrap hero-layout">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> UNA EXPLOSIÓN DE FRESCURA</div>
+          <h1>El calor se va.<br><em>El sabor</em> se queda.</h1>
+          <p>Granizados llenos de color, textura y sabor para convertir cualquier pausa en el mejor momento del día.</p>
+          <div class="hero-actions">
+            <a class="btn btn-hot" href="#sabores">Explorar sabores <i class="fa-solid fa-arrow-right"></i></a>
+            <a class="btn btn-glass" href="#proyecto"><i class="fa-regular fa-circle-play"></i> Conoce MACAFÉ</a>
+          </div>
+          <div class="hero-proof"><span><i class="fa-solid fa-location-dot"></i> La Dorada, Caldas</span><span><i class="fa-solid fa-snowflake"></i> Frescura al instante</span></div>
+        </div>
+        <div class="hero-art reveal">
+          <div class="hero-ring"></div>
+          <img class="hero-logo" src="img/logo-macafe.webp" alt="MACAFÉ Dulce Fusión Granizados: fruta, sabor y buena vibra">
+          <div class="floating-chip chip-top"><i class="fa-solid fa-sparkles"></i> Mucho sabor</div>
+          <div class="floating-chip chip-bottom"><i class="fa-solid fa-heart"></i> Hecho para disfrutar</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#sabores"><span></span> DESLIZA PARA DESCUBRIR</a>
+    </section>
+
+    <section class="ticker" aria-label="Características MACAFÉ">
+      <div class="ticker-track"><span>FRESCURA</span><i>✳</i><span>COLOR</span><i>✳</i><span>SABOR</span><i>✳</i><span>BUENA ENERGÍA</span><i>✳</i><span>FRESCURA</span><i>✳</i><span>COLOR</span><i>✳</i><span>SABOR</span><i>✳</i><span>BUENA ENERGÍA</span><i>✳</i></div>
+    </section>
+
+    <section class="section flavors" id="sabores">
+      <div class="wrap">
+        <div class="section-top reveal"><div><span class="kicker">01 / ELIGE TU ANTOJO</span><h2>Un mundo de<br><em>sabores.</em></h2></div><p>Una mezcla refrescante para cada gusto. ¿Cuál probarías primero?</p></div>
+        <div class="flavor-grid">
+          <article class="flavor-card flavor-mango reveal"><div class="flavor-image"><img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&fm=jpg&q=85&w=900" alt="Bebida de mango"><span class="flavor-number">01</span></div><div class="flavor-info"><span class="flavor-type">FRUTAL</span><h3>Mango</h3><p>Un toque tropical, dulce y refrescante.</p><span class="flavor-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div></article>
+          <article class="flavor-card flavor-berry reveal"><div class="flavor-image"><img src="https://images.unsplash.com/photo-1497534446932-c925b458314e?auto=format&fit=crop&w=900&q=85" alt="Bebida de frutos rojos"><span class="flavor-number">02</span></div><div class="flavor-info"><span class="flavor-type">FRUTAL</span><h3>Mora & cereza</h3><p>Color intenso y un sabor que sorprende.</p><span class="flavor-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div></article>
+          <article class="flavor-card flavor-coffee reveal"><div class="flavor-image"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85" alt="Bebida de café"><span class="flavor-number">03</span></div><div class="flavor-info"><span class="flavor-type">ESPECIAL</span><h3>Café</h3><p>Una opción diferente para los amantes del café.</p><span class="flavor-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div></article>
+          <article class="flavor-card flavor-coco reveal"><div class="flavor-image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Coconut%20Drink%20%28Unsplash%29.jpg" alt="Bebida de coco"><span class="flavor-number">04</span></div><div class="flavor-info"><span class="flavor-type">ESPECIAL</span><h3>Coco</h3><p>Un sabor suave con esencia tropical.</p><span class="flavor-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div></article>
+          <article class="flavor-card flavor-cookie reveal"><div class="flavor-image"><img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=900&q=85" alt="Bebida tipo malteada"><span class="flavor-number">05</span></div><div class="flavor-info"><span class="flavor-type">ESPECIAL</span><h3>Oreo</h3><p>Una alternativa dulce y cremosa.</p><span class="flavor-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div></article>
+          <article class="flavor-card flavor-passion reveal"><div class="flavor-image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Suco_de_maracuj%C3%A1_1.jpg" alt="Granizado de maracuyá"><span class="flavor-number">06</span></div><div class="flavor-info"><span class="flavor-type">FRUTAL</span><h3>Maracuyá</h3><p>Un perfil tropical para los días soleados.</p><span class="flavor-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div></article>
+        </div>
+        <p class="image-disclaimer">Fotografías de referencia. Las imágenes se reemplazan por fotografías reales de los productos MACAFÉ.</p>
+      </div>
+    </section>
+
+    <section class="sizes-band">
+      <div class="wrap sizes-layout">
+        <div class="sizes-copy reveal"><span class="kicker light-kicker">TU TAMAÑO, TU MOMENTO</span><h2>¿Pequeño antojo<br>o gran <em>refrescada?</em></h2><p>Tres presentaciones para disfrutar a tu manera.</p></div>
+        <div class="size-options">
+          <div class="size-option reveal"><div class="cup cup-small"><span></span></div><strong>9 oz</strong><small>Pequeña</small></div>
+          <div class="size-option size-highlight reveal"><div class="cup cup-medium"><span></span></div><strong>12 oz</strong><small>Mediana</small><b>LA FAVORITA</b></div>
+          <div class="size-option reveal"><div class="cup cup-large"><span></span></div><strong>16 oz</strong><small>Grande</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section video-section" id="experiencia">
+      <div class="wrap">
+        <div class="section-top reveal"><div><span class="kicker">02 / SIENTE LA EXPERIENCIA</span><h2>El antojo también<br>entra por los <em>ojos.</em></h2></div><p>El color, el hielo y la mezcla de sabores hacen parte de la experiencia MACAFÉ.</p></div>
+        <div class="video-frame reveal">
+          <video id="brandVideo" controls playsinline preload="metadata" poster="https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=1600&q=90">
+            <source src="videos/macafe.mp4" type="video/mp4">
+            Tu navegador no puede reproducir este video. Agrega un archivo MP4 en la carpeta videos.
+          </video>
+          <div class="video-overlay" id="videoOverlay"><button id="playVideo" class="play-button" aria-label="Reproducir video"><i class="fa-solid fa-play"></i></button><span>MACAFÉ · FRESCURA EN CADA VASO</span><small>Agrega tu video promocional en <b>videos/macafe.mp4</b></small></div>
+        </div>
+        <div class="video-caption"><span><i class="fa-solid fa-video"></i> VIDEO DE MARCA</span><span>Reemplaza el video de muestra por un clip propio de preparación y presentación.</span></div>
+      </div>
+    </section>
+
+    <section class="story-section" id="proyecto">
+      <div class="story-bg"></div>
+      <div class="wrap story-layout">
+        <div class="story-photo reveal"><img src="https://images.unsplash.com/photo-1551538827-9c037cb4f32a?auto=format&fit=crop&fm=jpg&q=85&w=900" alt="Bebida refrescante tropical"><div class="photo-stamp"><i class="fa-solid fa-sun"></i><span>LA DORADA<br>CALDAS</span></div></div>
+        <div class="story-copy reveal"><span class="kicker light-kicker">03 / NUESTRA HISTORIA</span><h2>Una idea local.<br><em>Un sabor que conecta.</em></h2><p>MACAFÉ nace como una iniciativa de producción y comercialización de granizados en La Dorada, Caldas. Buscamos ofrecer bebidas de excelente calidad, variedad de sabores, presentaciones atractivas y precios accesibles.</p><p>Más que vender una bebida, queremos brindar una experiencia agradable que combine frescura, creatividad y buena atención al cliente.</p><div class="story-tags"><span><i class="fa-solid fa-check"></i> Calidad</span><span><i class="fa-solid fa-check"></i> Variedad</span><span><i class="fa-solid fa-check"></i> Servicio</span></div></div>
+      </div>
+    </section>
+
+    <section class="section project-pillars">
+      <div class="wrap">
+        <div class="section-top reveal"><div><span class="kicker">04 / DETRÁS DEL EMPRENDIMIENTO</span><h2>Un proyecto con<br><em>estructura.</em></h2></div><p>La idea se analiza desde cinco componentes para conocer sus recursos, operación y viabilidad.</p></div>
+        <div class="pillar-grid">
+          <article class="pillar reveal"><span>01</span><i class="fa-solid fa-bullseye"></i><h3>Mercado</h3><p>Clientes, demanda, oferta, precios y comercialización.</p></article>
+          <article class="pillar reveal"><span>02</span><i class="fa-solid fa-gears"></i><h3>Técnico</h3><p>Tamaño, localización, insumos, equipos y producción.</p></article>
+          <article class="pillar reveal"><span>03</span><i class="fa-solid fa-people-group"></i><h3>Administrativo</h3><p>Organización, funciones y funcionamiento interno.</p></article>
+          <article class="pillar reveal"><span>04</span><i class="fa-solid fa-calculator"></i><h3>Financiero</h3><p>Inversiones, costos, gastos y proyecciones.</p></article>
+          <article class="pillar reveal"><span>05</span><i class="fa-solid fa-chart-pie"></i><h3>Evaluativo</h3><p>Evaluación financiera, económica, social y ambiental.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section demand-section" id="demanda">
+      <div class="wrap demand-layout">
+        <div class="demand-copy reveal"><span class="kicker">05 / MIRANDO HACIA ADELANTE</span><h2>Una demanda que<br><em>puede crecer.</em></h2><p>El proyecto presenta una estimación de la demanda de consumidores de granizados para La Dorada. La serie incluye datos históricos y proyecciones hasta 2030.</p><div class="demand-highlight"><strong>6.668</strong><span>consumidores estimados para 2030</span></div><small>Proyección incluida en los anexos del proyecto empresarial.</small></div>
+        <div class="chart-card reveal"><div class="chart-title"><div><span>PROYECCIÓN DE DEMANDA</span><h3>2021 — 2030</h3></div><span class="chart-badge"><i class="fa-solid fa-arrow-trend-up"></i> Estimación</span></div><div class="chart-box"><canvas id="demandChart" aria-label="Gráfico de demanda proyectada" role="img"></canvas></div><div class="chart-note"><i class="fa-solid fa-circle-info"></i> Los valores 2026–2030 son proyecciones del documento, no ventas observadas.</div></div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="closing-shape"></div>
+      <div class="wrap closing-content reveal"><span>MACAFÉ · LA DORADA, CALDAS</span><h2>Que el calor no te detenga.<br><em>¡Dale sabor a tu día!</em></h2><a href="#sabores" class="btn btn-dark">Descubre nuestros sabores <i class="fa-solid fa-arrow-right"></i></a></div>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <div class="wrap footer-main">
+      <a class="brand footer-brand" href="#inicio"><span class="brand-mark"><i class="fa-solid fa-ice-cream"></i></span><span>MACA<span>FÉ</span><small>GRANIZADOS</small></span></a>
+      <p>Producción y comercialización de granizados.<br>Una iniciativa de emprendimiento en La Dorada, Caldas.</p>
+      <div class="footer-meta"><span>PROYECTO EMPRESARIAL · 2026</span><a href="#inicio">VOLVER ARRIBA ↑</a></div>
+    </div>
+    <div class="footer-bottom">© 2026 MACAFÉ. Proyecto académico. Fotografías ilustrativas sujetas a reemplazo.</div>
+  </footer>
+
+  <script src="scrip.js"></script>
+</body>
+</html>

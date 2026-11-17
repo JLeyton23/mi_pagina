@@ -1,0 +1,30 @@
+MACAFÉ — SITIO WEB CON LOGO OFICIAL
+
+CONTENIDO
+- index.html: página principal.
+- style.css: diseño y estilos.
+- scrip.js: interacciones.
+- img/logo-macafe.webp: logo oficial suministrado por el usuario.
+- videos/LEEME.txt: instrucciones para añadir video promocional.
+
+PARA PROBAR EN TU COMPUTADOR
+1. Extrae el ZIP.
+2. Abre la carpeta macafe_web_moderno completa en Visual Studio Code.
+3. Ejecuta index.html con Live Server.
+4. Comprueba el menú, las secciones y el logo en el encabezado y en el inicio.
+
+PARA COMPARTIR UN ENLACE PÚBLICO
+Este ZIP todavía no es un sitio publicado en Internet. Para tener un enlace público debes subir la carpeta del sitio a un servicio de hosting.
+Una opción sencilla es Netlify:
+1. Entra a https://app.netlify.com/drop
+2. Inicia sesión o crea una cuenta.
+3. Arrastra la carpeta macafe_web_moderno descomprimida (la carpeta que contiene index.html, style.css, scrip.js, img y videos) al área de carga.
+4. Espera a que termine la publicación. Netlify te mostrará una dirección pública que termina en netlify.app.
+5. Copia esa dirección y compártela con tus clientes. Puedes cambiar el nombre del sitio desde la configuración de Netlify si el nombre está disponible.
+
+IMPORTANTE
+- No compartas el enlace sandbox de descarga como si fuera la página pública: ese enlace solo permite descargar el archivo desde esta conversación.
+- Para tener un dominio propio, por ejemplo www.macafe.com, debes comprar/configurar ese dominio y conectarlo al hosting.
+- Las fotos de productos siguen siendo imágenes ilustrativas. Sustitúyelas por fotos reales antes de promocionar la página.
+- El formulario de contacto no tiene backend. El correo de destino debe configurarse en scrip.js.
+- Las fuentes, iconos, Chart.js y fotografías externas necesitan conexión a Internet.
